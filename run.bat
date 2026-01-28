@@ -1,0 +1,1 @@
+python -m uvicorn main:app --reload --log-config=log_conf.yml

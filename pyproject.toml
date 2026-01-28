@@ -1,0 +1,14 @@
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+# E: pycodestyle, F: Pyflakes, I: isort, B: flake8-bugbear
+select = ["E", "F", "I", "B"]
+ignore = ["E501"] # Ignore long lines (formatter handles this)
+[tool.ruff.lint.flake8-bugbear]
+# Allow default arguments like, e.g., `data: List[str] = fastapi.Query(None)`.
+extend-immutable-calls = ["fastapi.Depends", "fastapi.File"]
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"

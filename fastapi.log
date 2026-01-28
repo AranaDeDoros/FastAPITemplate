@@ -1,0 +1,6 @@
+{"timestamp": "2026-01-28 13:32:09,241", "level": "INFO", "logger": "app", "message": "Root endpoint accessed", "module": "main", "line": 114}
+{"timestamp": "2026-01-28 13:32:34,774", "level": "INFO", "logger": "app", "message": "Root endpoint accessed", "module": "main", "line": 114}
+{"timestamp": "2026-01-28 13:33:40,007", "level": "CRITICAL", "logger": "app", "message": "Root endpoint accessed", "module": "main", "line": 114}
+{"timestamp": "2026-01-28 13:34:36,225", "level": "INFO", "logger": "app", "message": "Root endpoint accessed", "module": "main", "line": 114}
+{"timestamp": "2026-01-28 13:34:46,394", "level": "CRITICAL", "logger": "app", "message": "Root endpoint accessed", "module": "main", "line": 114}
+{"timestamp": "2026-01-28 13:45:43,606", "level": "CRITICAL", "logger": "app", "message": "Root endpoint accessed", "module": "main", "line": 115}
